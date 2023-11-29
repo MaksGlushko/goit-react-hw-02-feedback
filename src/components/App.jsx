@@ -19,7 +19,7 @@ export const App = () => {
       setBad(e => e + 1);
     }
   }
-
+  
   const total = good + bad + neutral;
   const percent = Math.floor((good / total) * 100);
 
